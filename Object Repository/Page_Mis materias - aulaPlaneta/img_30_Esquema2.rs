@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_30_Esquema2</name>
+   <tag></tag>
+   <elementGuidId>9997793a-f664-41a4-92b5-1b7cc18eb131</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.title.font-weight-bold.pt-3.pr-2.pb-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;image_30&quot;]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>026f931e-1027-47fe-88a9-241d0d74d423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title font-weight-bold pt-3 pr-2 pb-2</value>
+      <webElementGuid>bcbfce05-7409-45ba-ae3b-c2985da2fd88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>El ciclo del agua</value>
+      <webElementGuid>61299bdf-1a13-4efc-acb1-5ecccd34b8e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;recursos-results&quot;)/cdk-virtual-scroll-viewport[@class=&quot;cdk-virtual-scroll-viewport vsv-body cdk-virtual-scroll-orientation-vertical ng-star-inserted&quot;]/div[@class=&quot;cdk-virtual-scroll-content-wrapper&quot;]/table[@class=&quot;mat-table cdk-table mat-sort w-100 mb-5 default-table&quot;]/tbody[1]/tr[@class=&quot;mat-row cdk-row base card-row marronMS ng-star-inserted&quot;]/td[@class=&quot;mat-cell cdk-cell cursor-pointer cdk-column-titulo mat-column-titulo ng-star-inserted&quot;]/div[@class=&quot;d-flex align-items-start card-cell card-cell__start custom-bg__light&quot;]/span[@class=&quot;title font-weight-bold pt-3 pr-2 pb-2&quot;]</value>
+      <webElementGuid>da734934-7b87-4a1c-99cb-237adaf948e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=&quot;image_30&quot;]/img</value>
+      <webElementGuid>8c584b94-4db6-4e3a-b7ad-456186263bfe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

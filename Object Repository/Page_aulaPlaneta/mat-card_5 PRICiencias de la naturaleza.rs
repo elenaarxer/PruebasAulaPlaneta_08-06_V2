@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-card_5 PRICiencias de la naturaleza</name>
+   <tag></tag>
+   <elementGuidId>6a15823f-bc83-4189-8b8a-7c73a65292e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mis-materias']/div[2]/mat-card</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-card.mat-card.mat-focus-indicator.materia.cursor-pointer.custom-bg__regular.d-flex.flex-column.justify-content-between.route-animations-elements.verdeCN.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-card</value>
+      <webElementGuid>65e1ecfe-5b97-4963-b866-a33232469227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-card mat-focus-indicator materia cursor-pointer custom-bg__regular d-flex flex-column justify-content-between route-animations-elements verdeCN ng-star-inserted</value>
+      <webElementGuid>fd52456d-85d3-4f01-a3fe-2f08e02e9302</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e503d22d-1f5a-4ab2-b464-6212e865684b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5º PRICiencias de la naturaleza</value>
+      <webElementGuid>f498b2b4-fa12-47d2-810b-ddff09278e08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mis-materias&quot;)/div[@class=&quot;d-flex materia-container ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator materia cursor-pointer custom-bg__regular d-flex flex-column justify-content-between route-animations-elements verdeCN ng-star-inserted&quot;]</value>
+      <webElementGuid>f0762079-9f2f-49e6-8d59-e8b609509601</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mis-materias']/div[2]/mat-card</value>
+      <webElementGuid>304e1777-9ab7-49c0-b8ca-946896fa75f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hola, Alumno1 Prueba'])[1]/following::mat-card[1]</value>
+      <webElementGuid>4eda11e1-ed1d-4331-8ebe-81b1d4d5c79c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='help_center'])[2]/following::mat-card[1]</value>
+      <webElementGuid>34e734c3-c9ef-42f5-aea7-97f04da33d01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciencias sociales'])[1]/preceding::mat-card[1]</value>
+      <webElementGuid>0db4470a-c5c6-4435-96c0-b2423baecf74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card</value>
+      <webElementGuid>2fdc286b-4989-4664-b12b-1d991b8505bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-card[(text() = '5º PRICiencias de la naturaleza' or . = '5º PRICiencias de la naturaleza')]</value>
+      <webElementGuid>b15d649b-bfa0-43bd-bb9c-4f424d97e707</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

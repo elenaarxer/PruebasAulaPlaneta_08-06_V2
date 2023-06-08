@@ -1,3 +1,194 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/input_Nombre_form-control ng-untouched ng-d_b6159e",
+      "brokenLocator": "//input[@type\u003d\u0027text\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027text\u0027 and @placeholder \u003d \u0027Nombre de usuario\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/button_more_vert",
+      "brokenLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/div[8]/div/mat-card[2]/div[2]/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/div[8]/div/mat-card[2]/div[2]/div/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/button_more_vert_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/a_Ciencias de la naturaleza",
+      "brokenLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/mat-card/div[2]/mat-card-subtitle/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/mat-card/div[2]/mat-card-subtitle/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/a_Ciencias de la naturaleza_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mis materias - aulaPlaneta/div_Esquema del ciclo del agua",
+      "brokenLocator": "(//div[@id\u003d\u0027realContent\u0027])[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[6]/table/tbody/tr/td/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mis materias - aulaPlaneta/div_Esquema del ciclo del agua_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/input_Nombre_form-control ng-untouched ng-d_b6159e",
+      "brokenLocator": "//input[@type\u003d\u0027text\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/input_Nombre_form-control ng-untouched ng-d_b6159e_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/input_Nombre_de_usuario",
+      "brokenLocator": "//input[@type\u003d\u0027text\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027text\u0027 and @placeholder \u003d \u0027Nombre de usuario\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/box_5A",
+      "brokenLocator": "//mat-checkbox[@id\u003d\u0027mat-checkbox-1\u0027]/",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Asignación\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/box_5A_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mis materias - aulaPlaneta/div_button_verciclodelagua",
+      "brokenLocator": "//iframe[@id\u003d\u0027roundbutton_14\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027material\u0027 and @src \u003d \u0027https://uat.aulaplaneta.com/Contenido/TemplatesCPCA/html5/v1/players/F1/Principal.html?_preload_data\u003d/Contenido/Modulos/1-2110-1-27734/\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mis materias - aulaPlaneta/div_button_verciclodelagua_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mis materias - aulaPlaneta/div_button2_verciclodelagua",
+      "brokenLocator": "/div[@id\u003d\u0027roundbutton_14\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027text\u0027 and @placeholder \u003d \u0027Filtrar recursos\u0027 and @id \u003d \u0027mat-input-0\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mis materias - aulaPlaneta/div_button2_verciclodelagua_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mis materias - aulaPlaneta/div_buttonPantalla_verciclodelagua",
+      "brokenLocator": "//div[@id\u003d\u0027pantalla_37\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027material\u0027 and @src \u003d \u0027https://uat.aulaplaneta.com/Contenido/TemplatesCPCA/html5/v1/players/F1/Principal.html?_preload_data\u003d/Contenido/Modulos/1-2110-1-27734/\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mis materias - aulaPlaneta/div_buttonPantalla_verciclodelagua_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/button_more_vert (2)",
+      "brokenLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/div[8]/div/mat-card[2]/div[2]/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/div[8]/div/mat-card[2]/div[2]/div/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/button_more_vert (2)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/button_people_altModificar Asignacin (2)",
+      "brokenLocator": "//div[@id\u003d\u0027mat-menu-panel-7\u0027]/div/span/button[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "button.mat-focus-indicator.mat-menu-item.cdk-focused.cdk-mouse-focused",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Mis materias - aulaPlaneta/img_30_Esquema2",
+      "brokenLocator": "//div[@id\u003d\"image_30\"]/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027El ciclo del agua\u0027 or . \u003d \u0027El ciclo del agua\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Mis materias - aulaPlaneta/img_30_Esquema2_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/div_Asignacin_mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin",
+      "brokenLocator": "/html/body/div[2]/div[1]/div/mat-dialog-container",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "id(\"mat-checkbox-1\")/label[@class\u003d\"mat-checkbox-layout\"]/div[@class\u003d\"mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin\"]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/div_Asignacin_mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/mat-card_5 PRICiencias de la naturaleza",
+      "brokenLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/mat-card",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/mat-card",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/mat-card_5 PRICiencias de la naturaleza_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/a_Ciencias de la naturaleza",
+      "brokenLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/mat-card/div[2]/mat-card-subtitle/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Ciencias de la naturaleza\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/a_Ciencias de la naturaleza_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/button_more_vert",
+      "brokenLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/div[8]/div/mat-card[2]/div[2]/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ciencias de la naturaleza\u0027])[3]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/button_more_vert",
+      "brokenLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/div[8]/div/mat-card[2]/div[2]/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ciencias de la naturaleza\u0027])[4]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/button_more_vert_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_aulaPlaneta/a_Ciencias de la naturaleza",
+      "brokenLocator": "//div[@id\u003d\u0027mis-materias\u0027]/div[2]/mat-card/div[2]/mat-card-subtitle/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Ciencias de la naturaleza\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_aulaPlaneta/a_Ciencias de la naturaleza_link.png"
+    }
+  ]
 }

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>PruebasAulaPlaneta_08-06_V2</name>
+   <name>My First Web UI Project</name>
    <tag></tag>
-   <UUID>2744470a-a4bf-48d5-8e58-ef94c804bef3</UUID>
+   <UUID>f6f7f59f-bbba-49ab-a8b2-483516c5f8f1</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\Infini Servidor\Katalon Studio\My First Web UI Project\My First Web UI Project.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -25,5 +26,5 @@
       </systemFolderList>
    </sourceContent>
    <timeStampInProperties>false</timeStampInProperties>
-   <type>GENERIC</type>
+   <type>WEBUI</type>
 </Project>

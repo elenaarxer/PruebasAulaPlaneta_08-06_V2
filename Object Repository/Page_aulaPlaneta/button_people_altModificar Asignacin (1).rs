@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_people_altModificar Asignacin (1)</name>
+   <tag></tag>
+   <elementGuidId>9b0c325c-2ff3-49bb-a7ca-e6d135d0cdf1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-menu-panel-7']/div/span/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-menu-item.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>22c835c0-de52-46ea-9f9f-e3d685adadf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-menu-item cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>33c2ed59-24fe-4c17-a1c6-8293ef9aab94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>e341d823-9296-4f58-9d80-fa916d002da1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>061c483b-84d5-46ca-8ca9-c276bce4997f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>0b2a8caf-69fb-4bad-b7ed-413f3db850a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>people_altModificar Asignación</value>
+      <webElementGuid>1d76184b-c26a-4e71-b0d8-cc1588714bbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-menu-panel-7&quot;)/div[@class=&quot;mat-menu-content ng-tns-c133-11&quot;]/span[@class=&quot;ng-tns-c133-11&quot;]/button[@class=&quot;mat-focus-indicator mat-menu-item cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>5ad8ee0c-b745-4892-8357-df13a01923e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-menu-panel-7']/div/span/button[2]</value>
+      <webElementGuid>1881144f-4611-4681-87ae-043b01c73a60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modificar título'])[1]/following::button[1]</value>
+      <webElementGuid>ae0b9ba6-8b1b-4c02-8805-b82e3bb5ebf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conoce el entorno de aprendizaje'])[1]/following::button[2]</value>
+      <webElementGuid>c7030f31-614a-447d-a510-b0530b049d86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duplicar'])[1]/preceding::button[1]</value>
+      <webElementGuid>1aa671e3-e40d-4c89-8d4a-8f19d688579c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/button[2]</value>
+      <webElementGuid>c8ec6205-24a7-44b4-b2b8-d2b2ba395795</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'people_altModificar Asignación' or . = 'people_altModificar Asignación')]</value>
+      <webElementGuid>7f89000f-6dda-4cf7-b241-c2b41e0daf65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

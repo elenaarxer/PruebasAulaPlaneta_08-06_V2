@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Copia profesor 1</name>
+   <tag></tag>
+   <elementGuidId>5336f085-4084-459f-965d-16d8d0ef72fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/aula-planeta-root/aula-planeta-main/div/div/div[1]/mat-sidenav-container/mat-sidenav-content/aula-planeta-materia/div/div[2]/aula-planeta-mis-temas/table/tbody/tr[13]/td[3]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4398df95-0faa-4078-bcdf-c602e9d1ecc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c361-4</value>
+      <webElementGuid>6a11c123-571b-42ed-b25e-cfdc97adb418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Copia profesor 1</value>
+      <webElementGuid>036b5c08-f479-4ce9-b11b-16e624a6bbd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-drop-list-0&quot;)/tbody[1]/tr[@class=&quot;mat-row cdk-row cdk-drag ng-tns-c361-4 element cdk-drag-disabled ng-star-inserted&quot;]/td[@class=&quot;mat-cell cdk-cell font-weight-bold titulo cursor-pointer cdk-column-tema mat-column-tema ng-tns-c361-4 ng-star-inserted&quot;]/span[@class=&quot;ng-tns-c361-4&quot;]</value>
+      <webElementGuid>f52c5189-3817-4d8a-997e-1acf7289fc97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:id</name>
+      <type>Main</type>
+      <value>/html/body/aula-planeta-root/aula-planeta-main/div/div/div[1]/mat-sidenav-container/mat-sidenav-content/aula-planeta-materia/div/div[2]/aula-planeta-mis-temas/table/tbody/tr[13]/td[3]/span</value>
+      <webElementGuid>48142242-382f-46f6-ad0d-cee8a08682a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
