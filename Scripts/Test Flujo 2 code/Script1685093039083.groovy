@@ -75,8 +75,8 @@ WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 
 'If=Box_5A checked // Else=Box_5A not checked'
 if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-checkbox-checked') {
-    'Verifica que esta el llibre "Copia profesor"'
-    WebUI.callTestCase(findTestCase('Test 2 functions/Case checked'), [:], FailureHandling.STOP_ON_FAILURE)
+    'Verify Element Visible'
+    WebUI.verifyElementVisible(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
 
@@ -119,11 +119,11 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
 
     WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 
-    'Verifica que NO esta el llibre "Copia profesor"'
-    WebUI.callTestCase(findTestCase('Test 2 functions/Case unchecked'), [:], FailureHandling.STOP_ON_FAILURE)
+    'Verify Element Not Visible'
+    WebUI.verifyElementNotVisible(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), FailureHandling.STOP_ON_FAILURE)
 } else {
-    'Verifica que NO esta el llibre "Copia profesor"'
-    WebUI.callTestCase(findTestCase('Test 2 functions/Case unchecked'), [:], FailureHandling.STOP_ON_FAILURE)
+    'Verify Element Not Visible'
+    WebUI.verifyElementNotVisible(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
 
@@ -166,8 +166,8 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
 
     WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 
-    'Verifica que esta el llibre "Copia profesor"'
-    WebUI.callTestCase(findTestCase('Test 2 functions/Case checked'), [:], FailureHandling.STOP_ON_FAILURE)
+    'Verify Element Visible'
+    WebUI.verifyElementVisible(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
