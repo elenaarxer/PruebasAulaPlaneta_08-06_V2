@@ -121,9 +121,13 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
 
     WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 
+    WebUI.scrollToPosition(0, 200)
+
     'Verify Element Not Visible'
     WebUI.verifyElementNotVisibleInViewport(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), 0)
 } else {
+    WebUI.scrollToPosition(0, 200)
+
     'Verify Element Not Visible'
     WebUI.verifyElementNotVisibleInViewport(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), 0)
 
