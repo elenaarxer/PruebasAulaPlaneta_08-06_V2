@@ -76,7 +76,7 @@ WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 'If=Box_5A checked // Else=Box_5A not checked'
 if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-checkbox-checked') {
     'Verify Element Visible'
-    WebUI.verifyElementVisible(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyTextPresent('Copia profesor 1', false)
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
 
@@ -124,12 +124,12 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
     WebUI.scrollToPosition(0, 200)
 
     'Verify Element Not Visible'
-    WebUI.verifyElementNotVisibleInViewport(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), 0)
+    WebUI.verifyTextNotPresent('Copia profesor 1', false)
 } else {
     WebUI.scrollToPosition(0, 200)
 
     'Verify Element Not Visible'
-    WebUI.verifyElementNotVisibleInViewport(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), 0)
+    WebUI.verifyTextNotPresent('Copia profesor 1', false)
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
 
@@ -173,7 +173,7 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
     WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 
     'Verify Element Visible'
-    WebUI.verifyElementVisible(findTestObject('Page_Mis materias - aulaPlaneta/span_Copia profesor 1'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyTextPresent('Copia profesor 1', false)
 }
 
 WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
