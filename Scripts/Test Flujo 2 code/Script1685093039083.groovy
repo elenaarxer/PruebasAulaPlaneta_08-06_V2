@@ -29,7 +29,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1920, 1080)
+WebUI.setViewPortSize(3920, 3080)
 
 WebUI.navigateToUrl('https://uat.aulaplaneta.com/')
 
