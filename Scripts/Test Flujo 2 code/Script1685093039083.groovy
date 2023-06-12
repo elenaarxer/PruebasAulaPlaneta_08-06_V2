@@ -41,7 +41,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_aulaPlaneta/input_
 WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_Entrar'))
 
 'Added recently'
-WebUI.scrollToPosition(0, 200)
+WebUI.scrollToPosition(0, 1200)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_more_vert'))
 
@@ -56,6 +58,8 @@ E5A_Checked = WebUI.getAttribute(findTestObject('Page_aulaPlaneta/box_5A'), 'cla
 
 WebUI.click(findTestObject('Page_aulaPlaneta/button_Aceptar'))
 
+WebUI.waitForElementClickable(findTestObject('Page_aulaPlaneta/mat-icon_keyboard_arrow_down'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
 
 WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_logoutCerrar sesin'))
@@ -69,13 +73,14 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_aulaPlaneta/input_
 
 WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_Entrar'))
 
-WebUI.scrollToPosition(0, 22)
+WebUI.delay(6)
 
 WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 
 'If=Box_5A checked // Else=Box_5A not checked'
 if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-checkbox-checked') {
-    'Verify Element Visible'
+    WebUI.delay(5)
+
     WebUI.verifyTextPresent('Copia profesor 1', false)
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
@@ -92,6 +97,8 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_Entrar'))
 
+    WebUI.delay(3)
+
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_more_vert'))
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_people_altModificar Asignacin'))
@@ -104,6 +111,8 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
     E5A_Checked = WebUI.getAttribute(findTestObject('Page_aulaPlaneta/box_5A'), 'class')
 
     WebUI.click(findTestObject('Page_aulaPlaneta/button_Aceptar'))
+
+    WebUI.delay(3)
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
 
@@ -119,21 +128,23 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_Entrar'))
 
+    WebUI.delay(6)
+
     WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 
     WebUI.scrollToPosition(0, 200)
 
-    'Verify Element Not Visible'
     WebUI.verifyTextNotPresent('Copia profesor 1', false)
 } else {
     WebUI.scrollToPosition(0, 200)
 
-    'Verify Element Not Visible'
     WebUI.verifyTextNotPresent('Copia profesor 1', false)
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/mat-icon_keyboard_arrow_down'))
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_logoutCerrar sesin'))
+
+    WebUI.delay(3)
 
     WebUI.setText(findTestObject('Object Repository/Page_aulaPlaneta/input_Nombre_form-control ng-untouched ng-d_b6159e'), 
         'Profesor_estres_1')
@@ -143,6 +154,8 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_Entrar'))
 
+    WebUI.delay(3)
+
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_more_vert'))
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_people_altModificar Asignacin'))
@@ -170,9 +183,12 @@ if (E5A_Checked == 'mat-checkbox mat-accent cdk-focused cdk-mouse-focused mat-ch
 
     WebUI.click(findTestObject('Object Repository/Page_aulaPlaneta/button_Entrar'))
 
+    WebUI.delay(6)
+
     WebUI.click(findTestObject('Page_aulaPlaneta/a_Ciencias de la naturaleza'))
 
-    'Verify Element Visible'
+    WebUI.delay(5)
+
     WebUI.verifyTextPresent('Copia profesor 1', false)
 }
 
